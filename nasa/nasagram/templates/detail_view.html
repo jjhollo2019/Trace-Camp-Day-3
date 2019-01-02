@@ -1,0 +1,11 @@
+<img src="{{ nasa_comment.image_url }}"/>
+
+<p>
+    {{ nasa_comment.comment }}
+    <div>
+        {{ nasa_comment.rating }}
+    </div>
+    <div>
+        Favorite: <input type="checkbox" value="{{ nasa_comment.favorite }}" disabled>
+    </div>
+</p>
